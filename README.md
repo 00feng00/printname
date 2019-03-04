@@ -18,13 +18,13 @@
 3、把建立好的项目上传到GitHub托管。<br />
 4、接着我们可以发布到npm市场了（npm init、npm publish）。<br />
 5、现在我们可以到npm官网搜索查看刚刚上传的项目了。<br />
-6、执行npm install --dev filtration，新建一个testNpm.js文件，输入如下代码：<br />
+6、执行npm install --dev filtrationconsole，新建一个testfiltration.js文件，输入如下代码：<br />
 ```
 var testFiltration = require('filtration')
 
 testFiltration.hello('aFeng')
 ```
-7、最后node testNpm.js 就能看到输出hello aFeng <br />
+7、最后node testfiltration.js 就能看到输出hello aFeng <br />
 
 #### 温馨提示
 1、在npm发布，首先得先注册用户，注册方式有两种，一种是在官网注册，另外一种则是npm adduser。<br />
