@@ -30,3 +30,19 @@ testFiltration.hello('aFeng')
 1、在npm发布，首先得先注册用户，注册方式有两种，一种是在官网注册，另外一种则是npm adduser。<br />
 2、注册完成后，你需要在npm库Create a New Organization。<br />
 3、恭喜你，获得了发布的许可了。<br />
+
+#### 使用
+1、完成发布后，我们可以在node.js项目中require验证，执行：
+```
+npm install --dev printname
+```
+2、接着新建一个testfiltration.js文件：
+```
+var testfiltration = require('printname')
+testfiltration.hello('aFeng')
+```
+3、最后输入
+```
+node testfiltration.js
+```
+就能看到输出hello aFeng
