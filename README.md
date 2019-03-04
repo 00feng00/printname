@@ -34,7 +34,7 @@ testFiltration.hello('aFeng')
 #### 使用
 1、完成发布后，我们可以在node.js项目中require验证，执行：
 ```
-npm install --dev printname
+npm install --dev filtrationconsole
 ```
 2、接着新建一个testfiltration.js文件：
 ```
